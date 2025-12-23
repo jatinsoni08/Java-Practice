@@ -4,8 +4,14 @@ object-oriented programming concepts, and the Java Collection Framework.
 
 It is created for learning, hands-on practice, and interview preparation.
 
-Currently focusing on Java Collections, including hands-on examples such as:
-- Working with ArrayList using custom objects
-- Understanding the role of equals() in indexOf() operations
-- Exploring real-world behavior of collections with user-defined classes
+Current focus areas:
+- ArrayList with custom objects
+  • Storing user-defined objects
+  • Understanding the role of equals() in indexOf()
+- HashSet basics
+  • No duplicate elements
+  • One null value allowed
+  • Element lookup using contains()
+  • Iteration without index-based access
 
+More internal working concepts will be added as learning progresses.
