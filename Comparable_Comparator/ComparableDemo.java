@@ -53,7 +53,7 @@ class Employee1 implements Comparable<Employee1> {
 	}
 }
 
-public class Comparabllee {
+public class ComparableDemo {
 	public static void main(String[] args) {
 
 		// Creating ArrayList to store Employee1 objects

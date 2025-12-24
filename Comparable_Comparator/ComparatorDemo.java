@@ -54,7 +54,7 @@ class A01 implements Comparator<Employee> {
 	}
 }
 
-public class Comparatorrr {
+public class ComparatorDemo {
 	public static void main(String[] args) {
 
 		// Creating ArrayList to store Employee objects
