@@ -1,20 +1,29 @@
 # Java-Practice
 
-This repository contains my Java practice work covering core Java concepts,
-object-oriented programming, and the Java Collection Framework.
+This repository contains my structured Java practice covering
+Core Java concepts, Object-Oriented Programming, Java Collections Framework,
+and Java 8 features.
 
-It is created for learning, hands-on practice, and interview preparation.
+It is maintained for continuous learning, hands-on practice,
+and interview preparation.
 
-Current topics covered:
-- ArrayList with custom objects and equals() usage
-- Set interface basics (HashSet behavior)
-- Object ordering using Comparable and Comparator
-- Java 8 features:
-  • Functional Interfaces
-  • Lambda Expressions
-  • Predicate
-  • Stream API
+## Topics Covered
 
-Examples focus on understanding real-world usage,
-internal behavior, and best practices in Java.
-
+- Core Java fundamentals and OOP concepts
+- ArrayList usage with custom objects
+  - Understanding equals() and indexOf()
+- Set interface basics
+  - HashSet behavior (no duplicates, one null, no order)
+- Object ordering in Java
+  - Comparable (natural ordering)
+  - Comparator (custom ordering using lambda)
+- Java 8 features
+  - Functional Interfaces
+  - Lambda Expressions
+  - Predicate
+  - Stream API
+- Date & Time (Legacy API)
+  - java.util.Date
+  - java.sql.Date and conversions
+Examples are written with a focus on clarity,
+real-world usage, and correct Java practices.
