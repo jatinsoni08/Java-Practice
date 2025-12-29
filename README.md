@@ -25,5 +25,10 @@ and interview preparation.
 - Date & Time (Legacy API)
   - java.util.Date
   - java.sql.Date and conversions
+- Object class methods
+  - toString(), equals(), hashCode()
+  - == vs equals()
+  - getClass()
+
 Examples are written with a focus on clarity,
 real-world usage, and correct Java practices.
