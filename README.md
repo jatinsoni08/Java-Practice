@@ -29,6 +29,12 @@ and interview preparation.
   - toString(), equals(), hashCode()
   - == vs equals()
   - getClass()
+- Static keyword
+  - Class-level variables and methods
+  - Different ways to access static members
+  - Static vs non-static (memory perspective)
+  - Static methods in interfaces (Java 8+)
+
 
 Examples are written with a focus on clarity,
 real-world usage, and correct Java practices.
