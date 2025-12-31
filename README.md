@@ -34,6 +34,10 @@ and interview preparation.
   - Different ways to access static members
   - Static vs non-static (memory perspective)
   - Static methods in interfaces (Java 8+)
+- Access Modifiers
+  • public, private, protected, default
+  • Same package vs different package access
+  • Inheritance-based access rules
 
 
 Examples are written with a focus on clarity,
