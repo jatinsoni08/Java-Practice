@@ -38,6 +38,12 @@ and interview preparation.
   - public, private, protected, default
   - Same package vs different package access
   - Inheritance-based access rules
+- Array
+  - Array declaration and initialization
+  - Different ways to create arrays
+  - Index-based element access
+  - Iteration using for loop and enhanced for-each loop
+  - Fixed size and length property
 
 
 Examples are written with a focus on clarity,
