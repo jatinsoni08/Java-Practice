@@ -44,6 +44,13 @@ and interview preparation.
   - Index-based element access
   - Iteration using for loop and enhanced for-each loop
   - Fixed size and length property
+- Constructors
+  - Purpose of constructors
+  - Default and no-argument constructors
+  - Parameterized constructors
+  - Private constructors
+  - Constructor overloading
+  - Constructor rules and interview points
 
 
 Examples are written with a focus on clarity,
