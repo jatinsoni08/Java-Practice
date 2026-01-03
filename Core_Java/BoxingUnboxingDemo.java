@@ -37,6 +37,7 @@ public class BoxingUnboxingDemo {
 
         // Common pitfall
         Integer n = null;
-        // int z = n; // ❌ NullPointerException
+        // int z = n; // NullPointerException
     }
 }
+
