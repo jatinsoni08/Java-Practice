@@ -51,6 +51,11 @@ and interview preparation.
   - Private constructors
   - Constructor overloading
   - Constructor rules and interview points
+- Wrapper Classes
+- Autoboxing and Unboxing
+  - Internal working of boxing and unboxing
+  - Wrapper usage in collections
+  - Performance considerations and pitfalls
 
 
 Examples are written with a focus on clarity,
