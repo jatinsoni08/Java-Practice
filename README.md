@@ -56,7 +56,13 @@ and interview preparation.
   - Internal working of boxing and unboxing
   - Wrapper usage in collections
   - Performance considerations and pitfalls
-
+- OOPS
+  - Encapsulation
+    - Data hiding using private fields
+    - Controlled access via getters and setters
+    - Constructor-based initialization
+    - Use of this keyword
+    - Multiple object instances with independent state
 
 Examples are written with a focus on clarity,
 real-world usage, and correct Java practices.
