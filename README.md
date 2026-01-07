@@ -95,6 +95,15 @@ and **interview preparation**.
 - super keyword usage
 - Aggregation and Composition relationships
 
+### Polymorphism
+- Meaning: one interface, many implementations
+- Compile-time polymorphism (method overloading)
+- Runtime polymorphism (method overriding)
+- Dynamic method dispatch (JVM behavior)
+- Method overriding vs method hiding
+- Static methods and polymorphism limitation
+- Bicycle, MountainBike, RoadBike example
+
 ---
 
 Examples are written with a focus on **clarity**, **real-world usage**,  
