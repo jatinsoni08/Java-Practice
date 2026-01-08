@@ -104,6 +104,15 @@ and **interview preparation**.
 - Static methods and polymorphism limitation
 - Bicycle, MountainBike, RoadBike example
 
+### Abstraction
+- Meaning: focus on **what** an object does, not **how** it does it
+- Achieved using abstract classes and interfaces
+- Abstract class may contain abstract and non-abstract methods
+- Interfaces define a contract and support multiple inheritance
+- Abstract classes cannot be instantiated
+- Used to hide implementation details and expose essential behavior
+- Improves code flexibility, scalability, and maintainability
+
 ---
 
 Examples are written with a focus on **clarity**, **real-world usage**,  
