@@ -45,6 +45,17 @@ and **interview preparation**.
 - Constructor rules and interview points
 
 ---
+### Exception Handling
+- Meaning of exceptions and runtime disruption
+- Exception hierarchy (Throwable, Error, Exception)
+- Checked vs unchecked exceptions
+- Common runtime exceptions (NPE, Arithmetic, Index)
+- try-catch-finally usage
+- try-with-resources (Java 7+)
+- Custom exception creation
+- JVM errors (OutOfMemoryError, StackOverflowError)
+- Interview-focused examples and best practices
+---
 
 ## 🧱 Collections Framework
 
