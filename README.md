@@ -27,6 +27,33 @@ and **interview preparation**.
 
 ---
 
+## 🧵 String Handling in Java
+
+This section focuses on **immutability, mutability, memory usage, and performance**.
+
+### String
+- Immutable nature of String
+- String Constant Pool (SCP)
+- String literal vs new keyword
+- concat() and `+` operator behavior
+- New object creation on modification
+- Thread-safe due to immutability
+
+### StringBuffer
+- Mutable string class
+- Thread-safe (synchronized methods)
+- append(), insert(), replace(), reverse()
+- Slightly slower due to synchronization
+- Suitable for multi-threaded environments
+
+### StringBuilder
+- Mutable and non-synchronized
+- Faster than StringBuffer
+- append(), replace(), reverse() usage
+- Preferred in single-threaded scenarios
+
+---
+
 ## 📦 Arrays & Constructors
 
 ### Array
@@ -45,16 +72,24 @@ and **interview preparation**.
 - Constructor rules and interview points
 
 ---
-### Exception Handling
+
+## 🚨 Exception Handling
+
 - Meaning of exceptions and runtime disruption
 - Exception hierarchy (Throwable, Error, Exception)
 - Checked vs unchecked exceptions
-- Common runtime exceptions (NPE, Arithmetic, Index)
+- Common runtime exceptions  
+  - NullPointerException  
+  - ArithmeticException  
+  - ArrayIndexOutOfBoundsException
 - try-catch-finally usage
 - try-with-resources (Java 7+)
 - Custom exception creation
-- JVM errors (OutOfMemoryError, StackOverflowError)
+- JVM errors  
+  - OutOfMemoryError  
+  - StackOverflowError
 - Interview-focused examples and best practices
+
 ---
 
 ## 🧱 Collections Framework
@@ -125,6 +160,13 @@ and **interview preparation**.
 - Improves code flexibility, scalability, and maintainability
 
 ---
+
+## 🎯 Goal of This Repository
+
+- Strengthen **Core Java fundamentals**
+- Build **concept clarity**, not just syntax knowledge
+- Maintain **interview-ready explanations**
+- Practice **clean, readable, and correct Java code**
 
 Examples are written with a focus on **clarity**, **real-world usage**,  
 and **correct Java practices**.
