@@ -104,6 +104,22 @@ This section focuses on **immutability, mutability, memory usage, and performanc
 
 ---
 
+## ⚠️ Fail-Fast vs Fail-Safe Iterators
+
+- **Fail-Fast**  
+  - Throws `ConcurrentModificationException` on structural modification  
+  - Works on original collection (`ArrayList`, `HashMap`)  
+  - Not thread-safe
+
+- **Fail-Safe**  
+  - No exception on modification  
+  - Works on a snapshot (`CopyOnWriteArrayList`)  
+  - Thread-safe but slower
+
+**Key Point:** Fail-Fast = original collection, Fail-Safe = snapshot copy
+
+---
+
 ## ⚙️ Java 8 Features
 
 - Functional Interfaces
