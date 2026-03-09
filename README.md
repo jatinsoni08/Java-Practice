@@ -96,8 +96,34 @@ This section focuses on **immutability, mutability, memory usage, and performanc
 
 - ArrayList with custom objects  
   - Understanding equals() and indexOf()
+
+- List implementations  
+  - ArrayList (dynamic array, fast access)  
+  - LinkedList (doubly linked list, fast insertion)
+
 - Set interface  
   - HashSet behavior (no duplicates, one null, no order)
+
+- Sorted and ordered sets  
+  - TreeSet (sorted order using BST)  
+  - LinkedHashSet (insertion order preserved)
+
+- Queue interface  
+  - FIFO (First-In-First-Out) structure  
+  - add(), offer(), remove(), poll(), peek(), element()
+
+- Deque (Double Ended Queue)  
+  - Insertion and removal from both ends  
+  - addFirst(), addLast(), pollFirst(), pollLast()
+
+- ArrayDeque  
+  - Resizable array implementation of Deque  
+  - Faster than Stack and LinkedList in many cases
+
+- PriorityQueue  
+  - Priority-based ordering using Min Heap  
+  - Head element is the smallest value
+
 - Object ordering  
   - Comparable (natural ordering)  
   - Comparator (custom ordering using lambda)
