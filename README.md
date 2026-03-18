@@ -209,7 +209,7 @@ In addition to practice code, I also build standalone projects to apply these co
 
 * **JDBC User Registration System**
   A web-based application using Servlets and JDBC to handle user registration and database interaction.
-  👉 https://github.com/jatinsoni08/JDBC-User-Registration-System
+  👉 https://github.com/jatinsoni08/Java-Practice/tree/main/JDBC-User-Registration-System
 
 ---
 
