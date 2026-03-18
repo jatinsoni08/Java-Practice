@@ -203,6 +203,16 @@ This section focuses on **immutability, mutability, memory usage, and performanc
 
 ---
 
+## 📂 Projects
+
+In addition to practice code, I also build standalone projects to apply these concepts:
+
+* **JDBC User Registration System**
+  A web-based application using Servlets and JDBC to handle user registration and database interaction.
+  👉 https://github.com/jatinsoni08/JDBC-User-Registration-System
+
+---
+
 ## 🎯 Goal of This Repository
 
 - Strengthen **Core Java fundamentals**
