@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Registration Form</title>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .container {
+        background: white;
+        padding: 30px 40px;
+        border-radius: 12px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        width: 350px;
+        text-align: center;
+      }
+
+      h2 {
+        margin-bottom: 20px;
+        color: #333;
+      }
+
+      .input-group {
+        text-align: left;
+        margin-bottom: 15px;
+      }
+
+      .input-group label {
+        font-size: 14px;
+        color: #555;
+      }
+
+      .input-group input {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        outline: none;
+        transition: 0.3s;
+      }
+
+      .input-group input:focus {
+        border-color: #667eea;
+        box-shadow: 0 0 5px rgba(102, 126, 234, 0.5);
+      }
+
+      .btn {
+        width: 100%;
+        padding: 12px;
+        background: #667eea;
+        border: none;
+        color: white;
+        font-size: 16px;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      .btn:hover {
+        background: #5a67d8;
+      }
+
+      .footer {
+        margin-top: 10px;
+        font-size: 12px;
+        color: #777;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h2>Register Now 🚀</h2>
+
+      <form action="./RegisterServlet" method="post">
+        <div class="input-group">
+          <label>User Name</label>
+          <input type="text" name="uname" required />
+        </div>
+
+        <div class="input-group">
+          <label>Email</label>
+          <input type="email" name="email" required />
+        </div>
+
+        <div class="input-group">
+          <label>Password</label>
+          <input type="password" name="password" required />
+        </div>
+
+        <div class="input-group">
+          <label>City</label>
+          <input type="text" name="ucity" required />
+        </div>
+
+        <input type="submit" value="Register" class="btn" />
+      </form>
+
+      <div class="footer">© 2026 Registration System</div>
+    </div>
+  </body>
+</html>
