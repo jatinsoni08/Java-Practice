@@ -216,8 +216,8 @@ A web-based application using Servlets and JDBC to handle user registration and 
 ### 2. Student Management System (JDBC + Layered Architecture)  
 A console-based application built using JDBC with a proper layered architecture (Controller, Service, DAO, Utility).  
 Implements CRUD operations with clean separation of concerns and secure database interaction using PreparedStatement.  
-
 👉 https://github.com/jatinsoni08/Java-Practice/tree/main/StudentManagementSystem_CRUD_ConsoleBased 
+
 ---
 
 ## 🎯 Goal of This Repository
