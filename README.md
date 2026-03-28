@@ -1,11 +1,9 @@
 # Java-Practice
 
-This repository contains my structured **Java practice** covering  
-**Core Java**, **Object-Oriented Programming**, **Java Collections Framework**,  
+This repository contains my structured **Java practice** covering **Core Java**, **Object-Oriented Programming**, **Java Collections Framework**, 
 and **Java 8 features**.
 
-It is maintained for **continuous learning**, **hands-on practice**,  
-and **interview preparation**.
+It is maintained for **continuous learning**, **hands-on practice**, and **interview preparation**.
 
 ---
 
