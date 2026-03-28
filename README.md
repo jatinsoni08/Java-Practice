@@ -207,9 +207,16 @@ This section focuses on **immutability, mutability, memory usage, and performanc
 
 In addition to practice code, I also build standalone projects to apply these concepts:
 
-* **JDBC User Registration System**
-  A web-based application using Servlets and JDBC to handle user registration and database interaction.
-  👉 https://github.com/jatinsoni08/Java-Practice/tree/main/JDBC-User-Registration-System
+### 1. JDBC User Registration System  
+A web-based application using Servlets and JDBC to handle user registration and database interaction.  
+👉 https://github.com/jatinsoni08/Java-Practice/tree/main/JDBC-User-Registration-System  
+
+---
+
+### 2. Student Management System (JDBC + Layered Architecture)  
+A console-based application built using JDBC with a proper layered architecture (Controller, Service, DAO, Utility).  
+Implements CRUD operations with clean separation of concerns and secure database interaction using PreparedStatement.  
+👉 https://github.com/jatinsoni08/Java-Practice/tree/main/StudentManagementSystem_CRUD_ConsoleBased 
 
 ---
 
