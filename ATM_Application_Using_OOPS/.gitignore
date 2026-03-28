@@ -1,0 +1,19 @@
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# Compiled files
+bin/
+*.class
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
