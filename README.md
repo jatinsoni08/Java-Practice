@@ -202,23 +202,33 @@ This section focuses on **immutability, mutability, memory usage, and performanc
 - Improves code flexibility, scalability, and maintainability
 
 ---
-
 ## 📂 Projects
 
-In addition to practice code, I also build standalone projects to apply these concepts:
+In addition to practice code, I also build standalone projects to apply these concepts in real-world scenarios:
+
+---
 
 ### 1. JDBC User Registration System  
-A web-based application using Servlets and JDBC to handle user registration and database interaction.  
+A web-based application developed using Servlets and JDBC for handling user registration and database operations.  
+Includes form handling, validation, and database connectivity.  
+
 👉 https://github.com/jatinsoni08/Java-Practice/tree/main/JDBC-User-Registration-System  
 
 ---
 
 ### 2. Student Management System (JDBC + Layered Architecture)  
-A console-based application built using JDBC with a proper layered architecture (Controller, Service, DAO, Utility).  
+A console-based backend application built using JDBC with a proper layered architecture (Controller, Service, DAO, Utility).  
 Implements CRUD operations with clean separation of concerns and secure database interaction using PreparedStatement.  
-👉 https://github.com/jatinsoni08/Java-Practice/tree/main/StudentManagementSystem_CRUD_ConsoleBased 
+
+👉 https://github.com/jatinsoni08/Java-Practice/tree/main/StudentManagementSystem_CRUD_ConsoleBased  
 
 ---
+
+### 3. ATM Banking System (Core Java + OOPs)  
+A console-based ATM simulation system built using core Java concepts like Abstraction, Inheritance, Polymorphism, and Encapsulation.  
+Implements deposit and withdrawal operations with business rules such as minimum balance and tracks total transactions using static variables.  
+
+👉 https://github.com/jatinsoni08/Java-Practice/tree/main/ATM_Application_Using_OOPS  
 
 ## 🎯 Goal of This Repository
 
