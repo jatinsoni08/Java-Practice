@@ -228,6 +228,15 @@ Implements deposit and withdrawal operations with business rules such as minimum
 
 👉 https://github.com/jatinsoni08/Java-Practice/tree/main/ATM_Application_Using_OOPS  
 
+---
+
+### 4. Patient Management System (JDBC + CRUD)  
+A console-based backend application built using JDBC to manage patient records with full CRUD operations.  
+Follows a structured layered approach (Controller, Service, DAO, Utility) and uses PreparedStatement for secure and efficient database interaction.  
+
+👉 https://github.com/jatinsoni08/Java-Practice/tree/main/PatientManagementSystem_CRUD_ConsoleBased  
+
+---
 ## 🎯 Goal of This Repository
 
 - Strengthen **Core Java fundamentals**
