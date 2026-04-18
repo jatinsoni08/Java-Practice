@@ -237,6 +237,15 @@ Follows a structured layered approach (Controller, Service, DAO, Utility) and us
 👉 https://github.com/jatinsoni08/Java-Practice/tree/main/PatientManagementSystem_CRUD_ConsoleBased  
 
 ---
+
+### 5. Student Management System (Servlet + JDBC + Web Application)
+A web-based application developed using Servlets and JDBC for managing student records with separate Admin and Student panels. Includes CRUD operations, login authentication, session management, and dashboard statistics.
+
+👉 https://github.com/jatinsoni08/Java-Practice/tree/main/StudentManagementSystem_Servlet
+
+---
+
+
 ## 🎯 Goal of This Repository
 
 - Strengthen **Core Java fundamentals**
