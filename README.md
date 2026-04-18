@@ -241,7 +241,7 @@ Follows a structured layered approach (Controller, Service, DAO, Utility) and us
 ### 5. Student Management System (Servlet + JDBC + Web Application)
 A web-based application developed using Servlets and JDBC for managing student records with separate Admin and Student panels. Includes CRUD operations, login authentication, session management, and dashboard statistics.
 
-👉 https://github.com/jatinsoni08/Java-Practice/tree/main/StudentManagementSystem_Servlet
+👉 https://github.com/jatinsoni08/Java-Practice/tree/main/StudentManagmentSystem_Servlet
 
 ---
 
