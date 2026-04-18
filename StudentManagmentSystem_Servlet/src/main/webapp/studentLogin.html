@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Student Login</title>
+<style>
+body {
+	font-family: Arial;
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+.container {
+	background: white;
+	border-radius: 15px;
+	padding: 35px;
+	max-width: 400px;
+	width: 100%;
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+	text-align: center;
+	color: #2c3e50;
+	margin-bottom: 25px;
+}
+
+input {
+	width: 100%;
+	padding: 12px;
+	margin: 10px 0;
+	border: 2px solid #e0e0e0;
+	border-radius: 8px;
+	box-sizing: border-box;
+}
+
+button {
+	width: 100%;
+	padding: 12px;
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	color: white;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+.links {
+	text-align: center;
+	margin-top: 20px;
+}
+
+a {
+	color: #667eea;
+	text-decoration: none;
+}
+</style>
+</head>
+<body>
+	<div class="container">
+		<h2>Student Login</h2>
+		<form action="studentLogin" method="post">
+			<input type="email" name="email" placeholder="Email" required>
+			<input type="password" name="password" placeholder="Password"
+				required>
+			<button type="submit">Login</button>
+		</form>
+		<div class="links">
+			<p>
+				New student? <a href="studentRegister.html">Register here</a>
+			</p>
+			<p>
+				<a href="index.html">Back to Home</a>
+			</p>
+		</div>
+	</div>
+</body>
+</html>

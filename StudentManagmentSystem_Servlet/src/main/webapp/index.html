@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Student Management System</title>
+<style>
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	min-height: 100vh;
+	padding: 40px 20px;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	margin-bottom: 40px;
+	font-size: 36px;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.panels {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	gap: 30px;
+	margin-bottom: 30px;
+}
+
+.panel {
+	background: white;
+	border-radius: 15px;
+	padding: 30px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease;
+}
+
+.panel:hover {
+	transform: translateY(-5px);
+}
+
+.panel h2 {
+	color: #2c3e50;
+	margin-bottom: 20px;
+	font-size: 28px;
+	border-left: 4px solid #667eea;
+	padding-left: 15px;
+}
+
+.panel p {
+	color: #666;
+	margin-bottom: 25px;
+	line-height: 1.6;
+}
+
+.feature-list {
+	list-style: none;
+	margin: 20px 0;
+	padding-left: 20px;
+}
+
+.feature-list li {
+	padding: 8px 0;
+	color: #555;
+	position: relative;
+	padding-left: 25px;
+}
+
+.feature-list li:before {
+	content: "✓";
+	color: #27ae60;
+	position: absolute;
+	left: 0;
+	font-weight: bold;
+}
+
+.btn-group {
+	margin-top: 25px;
+	display: flex;
+	gap: 15px;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 24px;
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	color: white;
+	text-decoration: none;
+	border-radius: 6px;
+	font-weight: 600;
+	transition: all 0.3s ease;
+}
+
+.btn:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.btn-outline {
+	background: transparent;
+	border: 2px solid #667eea;
+	color: #667eea;
+}
+
+.btn-outline:hover {
+	background: #667eea;
+	color: white;
+}
+
+.footer {
+	text-align: center;
+	margin-top: 40px;
+	padding: 20px;
+	color: white;
+}
+
+.footer p {
+	margin: 5px 0;
+}
+
+.footer .love {
+	margin-top: 15px;
+	font-size: 14px;
+	opacity: 0.9;
+}
+
+.footer .love span {
+	color: #ff6b6b;
+	font-size: 16px;
+}
+
+@media ( max-width : 768px) {
+	.panels {
+		grid-template-columns: 1fr;
+	}
+	h1 {
+		font-size: 28px;
+	}
+}
+</style>
+</head>
+<body>
+
+	<div class="container">
+		<h1>Student Management System</h1>
+
+		<div class="panels">
+			<!-- Admin Panel -->
+			<div class="panel">
+				<h2>Admin Panel</h2>
+				<p>Full access to manage all students. Complete control over the
+					system.</p>
+				<ul class="feature-list">
+					<li>Add new students</li>
+					<li>Search, edit, and delete students</li>
+					<li>View all students list</li>
+					<li>Dashboard with statistics</li>
+					<li>Manage student accounts</li>
+				</ul>
+				<div class="btn-group">
+					<a href="studentLogin.html" class="btn">Admin Login</a>
+				</div>
+				<div class="btn-group" style="margin-top: 10px;">
+					<small style="color: #999;">Demo: admin@student.com /
+						admin123</small>
+				</div>
+			</div>
+
+			<!-- Student Panel -->
+			<div class="panel">
+				<h2>Student Panel</h2>
+				<p>Self-service portal for students to manage their own
+					information.</p>
+				<ul class="feature-list">
+					<li>Self registration</li>
+					<li>Login with email & password</li>
+					<li>View your profile</li>
+					<li>Update your information</li>
+					<li>View registration details</li>
+				</ul>
+				<div class="btn-group">
+					<a href="studentLogin.html" class="btn btn-outline">Student
+						Login</a> <a href="studentRegister.html" class="btn btn-outline">New
+						Registration</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<p>Student Management System | Manage students efficiently</p>
+			<p class="love">
+				Made with <span>❤️</span> by Jatin
+			</p>
+			<p style="font-size: 12px; margin-top: 10px;">Select a panel to
+				continue</p>
+		</div>
+	</div>
+
+</body>
+</html>
