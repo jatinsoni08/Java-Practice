@@ -54,11 +54,11 @@ This is **not** a collection of copy-paste tutorials. This is a **battle-tested 
 
 | # | Project Name | Key Concepts | Status |
 |---|--------------|--------------|--------|
-| 01 | [Object Class Mastery](https://github.com/jatinsoni08/Java-Practice) | toString(), equals(), hashCode(), getClass() | ✅ Complete |
-| 02 | [Static Keyword Deep Dive](https://github.com/jatinsoni08/Java-Practice) | Class-level members, Memory perspective, Interface static methods | ✅ Complete |
-| 03 | [Access Modifiers & Security](https://github.com/jatinsoni08/Java-Practice) | public, private, protected, default, Inheritance rules | ✅ Complete |
-| 04 | [String Handling Mastery](https://github.com/jatinsoni08/Java-Practice) | Immutability, String Constant Pool, Performance analysis | ✅ Complete |
-| 05 | [Arrays & Constructors](https://github.comgithub.com/jatinsoni08/Java-Practice) | Array manipulation, Constructor overloading, Private constructors | ✅ Complete |
+| 01 | [Object Class Mastery](https://github.com/jatinsoni08/Java-Practice/blob/main/Core_Java/ObjectClassDemo.java) | toString(), equals(), hashCode(), getClass() | ✅ Complete |
+| 02 | [Static Keyword Deep Dive](https://github.com/jatinsoni08/Java-Practice/blob/main/Core_Java/StaticKeywordDemo.java) | Class-level members, Memory perspective, Interface static methods | ✅ Complete |
+| 03 | [Access Modifiers & Security](https://github.com/jatinsoni08/Java-Practice/tree/main/Core_Java/Access_Modifiers) | public, private, protected, default, Inheritance rules | ✅ Complete |
+| 04 | [String Handling Mastery](https://github.com/jatinsoni08/Java-Practice/blob/main/Core_Java/StringConcepts.java) | Immutability, String Constant Pool, Performance analysis | ✅ Complete |
+| 05 | [Arrays & Constructors](https://github.com/jatinsoni08/Java-Practice/tree/main/Core_Java) | Array manipulation, Constructor overloading, Private constructors | ✅ Complete |
 
 ---
 
@@ -67,8 +67,8 @@ This is **not** a collection of copy-paste tutorials. This is a **battle-tested 
 
 | # | Project Name | Key Concepts | Status |
 |---|--------------|--------------|--------|
-| 06 | [Exception Handling Framework](https://github.com/jatinsoni08/Java-Practice) | Checked/Unchecked exceptions, Custom exceptions, try-with-resources | ✅ Complete |
-| 07 | [JVM Error Analysis](https://github.com/jatinsoni08/Java-Practice) | OutOfMemoryError, StackOverflowError, Memory management | ✅ Complete |
+| 06 | [Exception Handling Framework](https://github.com/jatinsoni08/Java-Practice/tree/main/Core_Java/ExceptionHandling) | Checked/Unchecked exceptions, Custom exceptions, try-with-resources | ✅ Complete |
+| 07 | [JVM Error Analysis](https://github.com/jatinsoni08/Java-Practice/tree/main/Core_Java/ExceptionHandling) | OutOfMemoryError, StackOverflowError, Memory management | ✅ Complete |
 
 ---
 
@@ -77,11 +77,11 @@ This is **not** a collection of copy-paste tutorials. This is a **battle-tested 
 
 | # | Project Name | Key Concepts | Status |
 |---|--------------|--------------|--------|
-| 08 | [List Implementations](https://github.com/jatinsoni08/Java-Practice) | ArrayList, LinkedList, Performance comparison | ✅ Complete |
-| 09 | [Set & Sorted Collections](https://github.com/jatinsoni08/Java-Practice) | HashSet, TreeSet, LinkedHashSet, BST algorithms | ✅ Complete |
-| 10 | [Queue & Deque Systems](https://github.com/jatinsoni08/Java-Practice) | FIFO, PriorityQueue, ArrayDeque, Heap algorithms | ✅ Complete |
-| 11 | [Fail-Fast vs Fail-Safe](https://github.com/jatinsoni08/Java-Practice) | ConcurrentModificationException, Thread-safe collections | ✅ Complete |
-| 12 | [Object Ordering Systems](https://github.com/jatinsoni08/Java-Practice) | Comparable, Comparator, Lambda expressions for sorting | ✅ Complete |
+| 08 | [List Implementations](https://github.com/jatinsoni08/Java-Practice/tree/main/Core_Java/CollectionFramework/ListIterface) | ArrayList, LinkedList, Performance comparison | ✅ Complete |
+| 09 | [Set & Sorted Collections](https://github.com/jatinsoni08/Java-Practice/tree/main/Core_Java/CollectionFramework/SetInterface) | HashSet, TreeSet, LinkedHashSet, BST algorithms | ✅ Complete |
+| 10 | [Queue & Deque Systems](https://github.com/jatinsoni08/Java-Practice/tree/main/Core_Java/CollectionFramework/queue) | FIFO, PriorityQueue, ArrayDeque, Heap algorithms | ✅ Complete |
+| 11 | [Fail-Fast vs Fail-Safe](https://github.com/jatinsoni08/Java-Practice/tree/main/Core_java/FailFastVsFailSafe.java) | ConcurrentModificationException, Thread-safe collections | ✅ Complete |
+| 12 | [Object Ordering Systems](https://github.com/jatinsoni08/Java-Practice/tree/main/Core_Java/Comparable_Comparator) | Comparable, Comparator, Lambda expressions for sorting | ✅ Complete |
 
 ---
 
@@ -90,11 +90,11 @@ This is **not** a collection of copy-paste tutorials. This is a **battle-tested 
 
 | # | Project Name | Key Concepts | Status |
 |---|--------------|--------------|--------|
-| 13 | [Encapsulation Mastery](https://github.com/jatinsoni08/Java-Practice) | Data hiding, Getter/Setter patterns, Object state management | ✅ Complete |
-| 14 | [Inheritance & Polymorphism](https://github.com/jatinsoni08/Java-Practice) | Multiple inheritance via interfaces, Dynamic method dispatch | ✅ Complete |
-| 15 | [Abstraction & Design Patterns](https://github.com/jatinsoni08/Java-Practice) | Abstract classes, Interface contracts, Code flexibility | ✅ Complete |
-| 16 | [Java 8+ Features](https://github.com/jatinsoni08/Java-Practice) | Lambda expressions, Stream API, Functional interfaces | ✅ Complete |
-| 17 | [Wrapper Classes & Memory](https://github.com/jatinsoni08/Java-Practice) | Autoboxing, Unboxing, Performance considerations | ✅ Complete |
+| 13 | [Encapsulation Mastery](https://github.com/jatinsoni08/Java-Practice/blob/main/Core_Java/OOPS/EncapsulationDemo.java) | Data hiding, Getter/Setter patterns, Object state management | ✅ Complete |
+| 14 | [Inheritance & Polymorphism](https://github.com/jatinsoni08/Java-Practice/tree/main/Core_Java/OOPS) | Multiple inheritance via interfaces, Dynamic method dispatch | ✅ Complete |
+| 15 | [Abstraction & Design Patterns](https://github.com/jatinsoni08/Java-Practice/tree/main/Core_Java/OOPS/Abstraction) | Abstract classes, Interface contracts, Code flexibility | ✅ Complete |
+| 16 | [Java 8+ Features](https://github.com/jatinsoni08/Java-Practice/tree/main/Java_8_Features) | Lambda expressions, Stream API, Functional interfaces | ✅ Complete |
+| 17 | [Wrapper Classes & Memory](https://github.com/jatinsoni08/Java-Practice/blob/main/Core_Java/BoxingUnboxingDemo.java) | Autoboxing, Unboxing, Performance considerations | ✅ Complete |
 
 ---
 
